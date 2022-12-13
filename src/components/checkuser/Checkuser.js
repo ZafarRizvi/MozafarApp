@@ -7,22 +7,34 @@ const Checkuser = (props) => {
 			<div className="checkuser-container">
 				<div className="checkuser-form">
 					<div className="checkuser-form-header">
-						<p>Login as a Doctor, Admin or a Patient?</p>
+						{/* <h1>You are a ?</h1> */}
 					</div>
 					<div className="checkuser-form-body">
 						<form>
 							<div className="form-group">
-								<button type="submit" onClick={() => props.setUser("Doctor")}>
+								<button
+									className="w-100 btn btn-lg btn-primary login-btn"
+									type="submit"
+									onClick={() => props.setUser("Doctor")}
+								>
 									Doctor
 								</button>
 							</div>
 							<div className="form-group">
-								<button type="submit" onClick={() => props.setUser("Admin")}>
+								<button
+									className="w-100 btn btn-lg btn-primary login-btn"
+									type="submit"
+									onClick={() => props.setUser("Admin")}
+								>
 									Admin
 								</button>
 							</div>
 							<div className="form-group">
-								<button type="submit" onClick={() => props.setUser("Patient")}>
+								<button
+									className="w-100 btn btn-lg btn-primary login-btn"
+									type="submit"
+									onClick={() => props.setUser("Patient")}
+								>
 									Patient
 								</button>
 							</div>

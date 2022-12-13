@@ -1,8 +1,23 @@
 .main-login-container {
 	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	background-color: rgb(255, 255, 255);
+}
+
+.rightsidediv {
+	flex: 2;
+	overflow: hidden;
+	background: #1b09a3;
+	background: -webkit-linear-gradient(bottom right, #1b09a3, #383bda);
+	background: -moz-linear-gradient(bottom right, #1b09a3, #383bda);
+	background: linear-gradient(to top left, #1b09a3, #383bda);
+}
+
+.leftsidediv {
+	flex: 1;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.6);
 }

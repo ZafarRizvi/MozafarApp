@@ -18,9 +18,12 @@
 
 .form-group button {
 	margin-top: 20px;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 800;
 	border-radius: 10%;
 	padding: 20px;
-	width: 100%;
+}
+
+.login-btn {
+	border: 3px solid rgb(0, 0, 0);
 }
